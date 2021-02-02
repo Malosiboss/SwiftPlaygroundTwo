@@ -54,15 +54,17 @@ if goodBoy == jobDone
 }
 
 //problem 3
-let stocked = 1
-let empty = 0
+var numberOne = 10
 
-if stocked == empty
+var numberTwo = 1
+
+var numberThree = numberOne == numberTwo
+
+if numberThree == true
 {
-    print("Were full")
+    print (" the scales are balanced")
 }
 else
 {
-    print("were empty")
+    print ("The scales are not balanced")
 }
-
