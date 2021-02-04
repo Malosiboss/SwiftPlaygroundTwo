@@ -54,13 +54,13 @@ if goodBoy == jobDone
 }
 
 //problem 3
-var numberOne = 10
+var scaleOne = true
 
-var numberTwo = 1
+var scaleTwo = false
 
-var numberThree = numberOne == numberTwo
+var scaleThree = scaleOne == scaleTwo
 
-if numberThree == true
+if scaleThree == true
 {
     print (" the scales are balanced")
 }
